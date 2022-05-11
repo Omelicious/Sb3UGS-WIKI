@@ -34,7 +34,7 @@ Every asset linked in the Animator and therefore shown in the Object Tree gets c
 
 Attention! When an accessory uses a texture of the file which is referenced in the list entry but not in any material then it doesn't get copied along with that paste operation. Such unlinked resources need to be marked for copying separately if they are to be copied with the same pasting. It is possible to repeat the mark and pasting for the texture, or drag an drop it. Like for accessories these unlinked resources need to be handled for studio items and clothes as well.
 
-The mt_ramp_00 file has the copy of Animator and we would edit and replace meshes, but that is will be explained on a different page. See Replacing Meshes
+The mt_ramp_00 file has the copy of Animator and we would edit and replace meshes, but that is will be explained on a different page. See [[Replacing Meshes]]
 
 Finally we save the file as abdata\ao_neck_example.unity3d. Make sure that it is saved inside a game folder.
 
