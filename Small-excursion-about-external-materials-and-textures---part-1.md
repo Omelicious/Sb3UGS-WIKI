@@ -46,7 +46,7 @@ Note also that our shorts file got new tabs for Materials and Textures. This fil
 
 **Currently new types make this file invalid for the game!** You get a message in the game's log file:
 
-**The AssetBundle '{your file path}' can't be loaded because it was not built with the right version or build target.**
+`The AssetBundle '{your file path}' can't be loaded because it was not built with the right version or build target.`
 
 In this case you have to change the Inventory offset in the file's menu. - Fixed in SB3UGS_v1.2.7 and later versions.
 
