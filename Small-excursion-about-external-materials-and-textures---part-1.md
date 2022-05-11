@@ -31,7 +31,7 @@ Now refresh the Mesh by clicking it in the Mesh list.
 Note two things:
 
 * The Material has been loaded and Textures too, because they are in the same file.
-* In the mat file more materials have been loaded (shown in bold face). But they are not available for selection yet. To use loaded resources either close and reopen the Animator or switch to the Object Tree and press "Refresh" at the bottom.
+* In the mat file more materials have been loaded (shown in bold face). But they are not available for selection yet. To use **loaded** resources either close and reopen the Animator or switch to the Object Tree and press "Refresh" at the bottom.
     ![External_Links_Part_1_-_4](https://user-images.githubusercontent.com/104311725/167846368-05b12898-7ad8-4a52-8d27-7bda134afd2a.png)
 
      The grey foreground colour in the Object Tree marks external assets. Remaining question: why haven't all materials in that been loaded? The file with the shorts references only those four.
