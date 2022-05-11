@@ -56,6 +56,6 @@ Now remove the external material cf_M_shorts_11_00. The mesh shows up like at th
 
 Do something else instead and reload the shorts file! Two messages are shown in the Log: 
 
-`The given key was not present in the dictionary`.
+`The given key was not present in the dictionary.`
 
 Remember we have removed the material from the material file which is still in Sb3UGS. If you see this message then usually a file is broken. This can happen e.g. when you edit files standalone and Sb3UGS doesn't even know the referencing file.
