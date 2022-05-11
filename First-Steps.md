@@ -4,6 +4,7 @@ The simplest possible 3d modification would be to open an original AssetBundle f
 Sb3UGS has no create AssetBundle file function. Instead we open a file of the target game with minimal content, delete that content and put into the file what we need. And finally we use **Save As...** and give the file a new name and location.
 
 We drag and drop that file into Sb3UGS, preferably into the File or Preview area. mt_ramp_00.unity3d is a good file to start with because it contains only a few textures.
+
 ![Wiki_-_first_steps_-_01_-_mt_ramp_00](https://user-images.githubusercontent.com/104311725/167824068-2d684109-c726-41dc-91b3-ed6bbe8c6053.png)
 
 The first texture is selected with a single left click, then the last texture is selected with a Shift-left click. All textures are deleted with Shift-Del or the use the file's Asset menu. One asset will always remain in the AssetBundle file and it can't be deleted: the AssetBundle asset in the **MonoB & Other** tab.
