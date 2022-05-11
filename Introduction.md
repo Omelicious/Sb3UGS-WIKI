@@ -1,6 +1,6 @@
 Sb3UGS is a tool for editing game files of Illusion games (--Supported games--). The latest titles use AssetBundle files, but Sb3UGS can also edit regular Unity game files of those games. It is limited to Unity versions used from those games.
 
-![](![Intro](https://user-images.githubusercontent.com/104311725/167820796-6663c768-2d30-4788-937d-b0b5b419de8a.png))
+![Intro](https://user-images.githubusercontent.com/104311725/167820796-6663c768-2d30-4788-937d-b0b5b419de8a.png)
 
 On the left side are files, usually just shown in one window. For this screenshot I had dragged the Workspace of an imported FBX file below an opened AssetBundle file.
 In the middle are editors of different kinds. I undocked one editor with the title "co_bot_00 [106]" which had been opened like the others in the middle.
