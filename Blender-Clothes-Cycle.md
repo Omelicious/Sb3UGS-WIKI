@@ -23,7 +23,7 @@ In your project folder is an Assets/Editor folder e.g. ...\KKModdingTools\Assets
 1. Select the FBX file. I had put it into ...\KKModdingTools\Assets\Mods. Change the import options. Don't forget to **Apply**.
 ![Blender_Clothes_Cycle_5](https://user-images.githubusercontent.com/104311725/167835356-d234c455-693c-4c54-8849-538e9bab6509.png)
 
-2. Drag the FBX file somewhere into the scene. Expand it there to reach p_o_gloves_long. Set the Layer to CHARA, confirm that you want that for children as well, add a ChaClothesComponent MB in which you register the SkinnedMeshRenderer in rendNormal.
+2. Drag the FBX file somewhere into the scene. Expand it there to reach p_o_gloves_long01. Set the Layer to CHARA, confirm that you want that for children as well, add a ChaClothesComponent MB in which you register the SkinnedMeshRenderer in rendNormal.
 
 3. Drag p_o_gloves_long down to create a prefab and assign an AssetBundle filename.
 ![Blender_Clothes_Cycle_6](https://user-images.githubusercontent.com/104311725/167835494-7915bfa6-5dfe-4de0-a287-2ed1b4dfbf88.png)
