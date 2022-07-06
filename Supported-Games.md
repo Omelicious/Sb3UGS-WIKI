@@ -1,5 +1,6 @@
 ### Latest supported titles are Unity3d based
 
+    Room Girl (trial)
     Koikatsu Sunshine
     HoneySelect 2
     AI-Syoujyo
