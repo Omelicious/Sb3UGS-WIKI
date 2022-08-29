@@ -29,4 +29,5 @@ Before export we do some renaming to simplify replacement (also see [Replacing M
 ![Porting a Skinned Mesh - 08 - export import replace](https://user-images.githubusercontent.com/104311725/187253161-4feeb8d1-1fbe-4068-83b9-2fbaa2ff1a29.png)
 
 DynamicBone values had been copied as well. And since we roughly scaled down by 10, radius and similar values need to be scaled accordingly. 
+
 ![Porting a Skinned Mesh - 09](https://user-images.githubusercontent.com/104311725/187253173-1bc8b053-f4f8-4f11-a326-1b9cb595d946.png)
