@@ -25,7 +25,7 @@ Copy the skin weights by name.
 
 ![Porting a Skinned Mesh - 07 - copy skin weights by name](https://user-images.githubusercontent.com/104311725/187253155-8d9aba66-c99a-4b56-ade1-e645c422c786.png)
 
-Before export we do some renaming to simplify replacement (also see Replacing Meshes). 
+Before export we do some renaming to simplify replacement (also see [Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)). 
 ![Porting a Skinned Mesh - 08 - export import replace](https://user-images.githubusercontent.com/104311725/187253161-4feeb8d1-1fbe-4068-83b9-2fbaa2ff1a29.png)
 
 DynamicBone values had been copied as well. And since we roughly scaled down by 10, radius and similar values need to be scaled accordingly. 
