@@ -13,7 +13,7 @@ Skinned meshes require their skeleton. Therefore, if not already present in the 
 ### Mesh Replacement Dialog - after dragging an ImportedMesh into the Object Tree's Blue Area
 ![Replacement_dialog_after_drag_'n_drop](https://user-images.githubusercontent.com/104311725/167831060-e790f433-bfcc-4e01-8358-add57f3470f7.png)
 
-The first option in the replacement dialog is the destination parent frame. This frame should already parent a mesh, the destination mesh. The new mesh from the workspace will be filled with game specific information from the destination mesh. If no mesh is present in that frame defaults are used.
+The first option in the replacement dialog is the destination parent frame. This frame should already parent a mesh, the destination mesh. The new mesh from the workspace will be filled with game specific information from the destination mesh. If no mesh is present in that frame a new mesh with defaults is created.
 
 The **Replace** method will replace any existing bonelist - none of the bones of the destination mesh will be present in the result. With this method no submesh of the destination mesh will be present in the result, regardless of replacement options of the submesh in the workspace.
 
