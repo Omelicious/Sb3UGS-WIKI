@@ -19,8 +19,11 @@ The **Replace** method will replace any existing bonelist - none of the bones of
 
 ![Replacement_options_in_the_Workspace](https://user-images.githubusercontent.com/104311725/167831321-2080491b-9fda-4a7d-a9fb-f9584360f15c.png)
 
-**Merge** will retain all destination bones and merge the bones from the imported mesh to the result. The destination submeshes will remain in the result, except when they are replaced from imported submeshes with checked **Replace Original Submesh** option.
+**Merge** will retain all destination bones and merges the bones from the imported mesh into the result. The destination submeshes will remain in the result, except when they are replaced from imported submeshes with checked **Replace Original Submesh** option.
 
-The imported mesh may not contain normals, tangents or bone weights (MQO files). The **Normals** and **Bones** option are changed to **Copy Nearest**. Replace would copy normals, tangents and bone information along with the vertex position. So **Replace** can only be used if you have that information in the imported file (FBX). **Copy In Order** copies the information like **Nearest**, but not based on the distance of vertices, but instead just one by one, from the first destination vertex to the first imported, second to second, and so on.
+The imported mesh may not contain normals, tangents or bone weights (MQO files). The **Normals** and **Bones** options are changed to **Copy Nearest**. Replace would copy normals, tangents and bone information along with the vertex position. So **Replace** can only be used if you have that information in the imported file (FBX files). **Copy In Order** copies the information like **Nearest**, but not based on the distance of vertices, but instead just one by one, from the first destination vertex to the first imported, second to second, and so on.
 
 The bottom option **Nearest** either limits the search for nearest vertices to the destination submesh or expands the search to all submeshes. The latter can be very slow and unnecessary, if the imported submesh and its destination submesh are very close to each other and cover the same or nearly the same space in 3d.
+
+### Double Replacement
+The destination mesh can have more vertices than supported from the game **temporarly before saving the file**. This can be useful for the making use of the **Copy Nearest** options in a second replacement. A mesh can be skinned that way. The first replacement brings a skinned high poly version into the file. The second replacement uses the skin weights for a low poly version which comes unskinned.
