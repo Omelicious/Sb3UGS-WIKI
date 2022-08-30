@@ -6,6 +6,11 @@ Seen from the perspective of the bone: vertices follow the movement of up to fou
 
 All used bones are collected in a list which is attached to the mesh, the **bonelist**. This bonelist has two aspects. For one, it names all frames of the skeleton which are used as bones. The second aspect is stored as a matrix which defines a translation, rotation and scaling. This matrix can be computed from the frame's matrix. And if all used bone's matrices were computed then you would see the mesh in its Rest Pose, sometimes called Bind Pose. If a bone matrix would always be computed, then it would not have to be stored and transported separately. Storing this matrix with an offset leads indeed to a modified pose. This offset pose is added to all applied animations!
 
+### Order of Replacement and Merging
+Each submesh needs a material, and if the names of the material of the imported submesh can be found in the destination file then they are automatically assigned to the submesh. Same goes for the textures and the material's texture slots. So always begin with merging the imported textures, then the imported materials.
+Skinned meshes require their skeleton. Therefore, if not already present in the destination file, begin with merging the ImportedFrames - skeleton and mesh parents. A later replacement of the mesh will automatically find the mesh parent. Any missing bone frame will let the replacement fail.
+
+### Mesh Replacement Dialog - after dragging an ImportedMesh into the Object Tree's Blue Area
 ![Replacement_dialog_after_drag_'n_drop](https://user-images.githubusercontent.com/104311725/167831060-e790f433-bfcc-4e01-8358-add57f3470f7.png)
 
 The first option in the replacement dialog is the target parent frame. In this frame should already exist a mesh, the destination mesh. The new mesh from the workspace will be filled with game specific information from the destination mesh.
@@ -16,6 +21,6 @@ The **Replace** method will replace any existing bonelist - none of the bones of
 
 **Merge** will retain all destination bones and merge the bones from the imported mesh to the result. The destination submeshes will remain in the result, except when they are replaced from imported submeshes with checked **Replace Original Submesh** option.
 
-The imported mesh may not contain normals, tangents or bone weights (MQO files). The **Normals** and **Bones** option are changed to **Copy Nearest**. Replace would copy normals, tangents and bone information along with the vertex position. So **Replace** can only be used if you have that information in the imported file (FBX). **Copy In Order** copies the information like **Nearest**, but not based on the distance of vertices, but instead just one by one, from the first destination vertex to the first imported, second to second, and so on. Use this mode after morphing meshes!
+The imported mesh may not contain normals, tangents or bone weights (MQO files). The **Normals** and **Bones** option are changed to **Copy Nearest**. Replace would copy normals, tangents and bone information along with the vertex position. So **Replace** can only be used if you have that information in the imported file (FBX). **Copy In Order** copies the information like **Nearest**, but not based on the distance of vertices, but instead just one by one, from the first destination vertex to the first imported, second to second, and so on.
 
 The bottom option **Nearest** either limits the search for nearest vertices to the destination submesh or expands the search to all submeshes. The latter can be very slow and unnecessary, if the imported submesh and its destination submesh are very close to each other and cover the same or nearly the same space in 3d.
