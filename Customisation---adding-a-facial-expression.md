@@ -23,4 +23,20 @@ The studio doesn't have the same gui. It simply shows the new index 40.
 
 Since we did nothing about the other meshes in MouthCtrl, and pulled back the jaw related vertices in the new expression, the tongue now pokes through. In the Character Maker the chin is the fifth slider in the third section - shown value 11.
 
+In abdata\list\customshape.unity3d is the definition for the sliders. In the first column in the slider index. Each line is for one Transform, and for some sliders there are several lines. 
+
+![Add_expression_07 - customization_mask](https://user-images.githubusercontent.com/104311725/188325498-8abc04f0-44f6-48c4-8ad2-8e97747f1533.png)
+
+In this case the chin has only one Transform cf_J_Chin_Base. The following columns are translation(X, Y, Z), rotation(X, Y, Z) and scaling(X, Y, Z_. A value of 0 indices that the component is unused, 1 means that it is used. In this example only translation for Z is used. 
+
+In the head's AB we find TextAsset cf_anmShapeHead_00. 
+
+![Add_expression_08 - cf_anmShapeHead_curves](https://user-images.githubusercontent.com/104311725/188326256-759f2a3f-2f6a-457b-843b-8b1c6a3eac51.png)
+
+All columns form nine curves for translation(X, Y, Z), rotation(X, Y, Z), scaling(X, Y, Z) with 24 keys for the Transform in the first column. If the line would be broken for each animation key, it would look like this (meant for understanding only. You don't have to do this for modding.): 
+
+![Add_expression_09 - customization_curve](https://user-images.githubusercontent.com/104311725/188326342-f146c352-a123-4c7c-b162-63ffb0b88af3.png)
+
+
+
 ![Add_expression_00 - break_connection](https://user-images.githubusercontent.com/104311725/188318581-e565926e-9db2-4f06-8e9e-077012f433f3.png)
