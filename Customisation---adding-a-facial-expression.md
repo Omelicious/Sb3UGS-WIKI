@@ -27,7 +27,7 @@ In abdata\list\customshape.unity3d is the definition for the sliders. In the fir
 
 ![Add_expression_07 - customization_mask](https://user-images.githubusercontent.com/104311725/188325498-8abc04f0-44f6-48c4-8ad2-8e97747f1533.png)
 
-In this case the chin has only one Transform cf_J_Chin_Base. The following columns are translation(X, Y, Z), rotation(X, Y, Z) and scaling(X, Y, Z_. A value of 0 indices that the component is unused, 1 means that it is used. In this example only translation for Z is used. 
+In this case the chin has only one Transform cf_J_Chin_Base. The following columns are translation(X, Y, Z), rotation(X, Y, Z) and scaling(X, Y, Z). A value of 0 indices that the component is unused, 1 means that it is used. In this example only translation for Z is used. 
 
 In the head's AB we find TextAsset cf_anmShapeHead_00. 
 
