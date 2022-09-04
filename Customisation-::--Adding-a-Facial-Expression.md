@@ -7,7 +7,7 @@ The new blendshape here is at index 81. We need to find a free slot in FaceBlend
 
 ![Add_expression_03 - chara_maker_mouth](https://user-images.githubusercontent.com/104311725/188323593-e861d8dc-8406-40b4-9ed4-3f9ef65650b3.png)
 
-We add a new line, in this case with "40, M exp 40" and extend all arrays in MouthCtrl. Index 40 will be used for each mesh when the new expression will be selected in game. In this case there are more entries right from the start. Thoses exceeding entries are unused and can not be selected in the Character Maker.
+We add a new line, in this case with "40, M exp 40" and extend all arrays in MouthCtrl. Index 40 will be used for each mesh when the new expression will be selected in game. In this case there are more entries right from the start. Those exceeding entries are unused and can not be selected in the Character Maker.
 
 ![Add_expression_04 - FaceBlendShape_Mouth_meshes](https://user-images.githubusercontent.com/104311725/188323899-90ee0e71-153f-42b3-a496-515f3cd6f5ae.png)
 
