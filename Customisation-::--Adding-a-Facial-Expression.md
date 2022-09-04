@@ -31,7 +31,7 @@ In the head's AB we find TextAsset cf_anmShapeHead_00.
 
 ![Add_expression_08 - cf_anmShapeHead_curves](https://user-images.githubusercontent.com/104311725/188326256-759f2a3f-2f6a-457b-843b-8b1c6a3eac51.png)
 
-All columns form nine curves for translation(X, Y, Z), rotation(X, Y, Z), scaling(X, Y, Z) with 24 keys for the Transform in the first column. If the line would be broken for each animation key, it would look like this (meant for understanding only. You don't have to do this for modding.): 
+All columns form nine curves for translation(X, Y, Z), rotation(X, Y, Z), scaling(X, Y, Z) with 25 keys for the Transform in the first column. If the line would be broken for each animation key, it would look like this (meant for understanding only. You don't have to do this for modding.): 
 
 ![Add_expression_09 - customization_curve](https://user-images.githubusercontent.com/104311725/188326342-f146c352-a123-4c7c-b162-63ffb0b88af3.png)
 
