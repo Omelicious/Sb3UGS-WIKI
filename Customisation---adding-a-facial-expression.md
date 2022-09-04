@@ -19,7 +19,7 @@ Here we put our index for the new expression. The Close expression is the shown 
 
 The studio doesn't have the same gui. It simply shows the new index 40.
 
-![Add_expression_06 - result](https://user-images.githubusercontent.com/104311725/188324511-138beb9e-8594-4115-a8ef-bb7ce9cbf905.png)
+![Add_expression_06 - result](https://user-images.githubusercontent.com/104311725/188325075-7bd4f43b-b1fe-4b8f-87ff-a421a62f40b3.png)
 
 Since we did nothing about the other meshes in MouthCtrl, and pulled back the jaw related vertices in the new expression, the tongue now pokes through.
 
