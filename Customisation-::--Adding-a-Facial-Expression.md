@@ -21,7 +21,7 @@ The studio doesn't have the same gui. It simply shows the new index 40.
 
 Since we did nothing about the other meshes in MouthCtrl, and pulled back the jaw related vertices in the new expression, the tongue now pokes through. In the Character Maker the chin is the fifth slider in the third section - shown value 11.
 
-In abdata\list\customshape.unity3d is the definition for the sliders. In the first column in the slider index. Each line is for one Transform, and for some sliders there are several lines. 
+In abdata\list\customshape.unity3d is the definition for the sliders. In the first column is the slider index. Each line is for one Transform, and for some sliders there are several lines. 
 
 ![Add_expression_07 - customization_mask](https://user-images.githubusercontent.com/104311725/188325498-8abc04f0-44f6-48c4-8ad2-8e97747f1533.png)
 
