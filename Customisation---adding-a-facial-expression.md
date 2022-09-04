@@ -37,6 +37,6 @@ All columns form nine curves for translation(X, Y, Z), rotation(X, Y, Z), scalin
 
 ![Add_expression_09 - customization_curve](https://user-images.githubusercontent.com/104311725/188326342-f146c352-a123-4c7c-b162-63ffb0b88af3.png)
 
-The tongue mesh with its morphs imported, the MoutCtrl's corresponding morph t00_sinken03_op fully used, the curve from above keyed, then the timeslider is set to 11 (slider value from chin) * 24 (last key index) / 100 (slider max for chin) = 2.64 and we see the tongue poking through like in the Character Maker. 
+The tongue mesh with its morphs imported, the MouthCtrl's corresponding morph t00_sinken03_op fully used, the curve from above keyed, then the timeslider is set to 11 (slider value from chin) * 24 (last key index) / 100 (slider max for chin) = 2.64 and we see the tongue poking through like in the Character Maker. 
 
 ![Add_expression_10 - simulated](https://user-images.githubusercontent.com/104311725/188327021-d98d54d3-5547-45a5-870a-d83ae0934472.png)
