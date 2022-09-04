@@ -19,7 +19,7 @@ Here we put our index 81 for the new expression. The Close expression is the sho
 
 The studio doesn't have the same gui. It simply shows the new index 40.
 
-![Add_expression_06 - result](https://user-images.githubusercontent.com/104311725/188325075-7bd4f43b-b1fe-4b8f-87ff-a421a62f40b3.png)
+![Add_expression_06 - result](https://user-images.githubusercontent.com/104311725/188327260-0409c1c5-d160-4b85-9607-a8ff5ce0dd39.png)
 
 Since we did nothing about the other meshes in MouthCtrl, and pulled back the jaw related vertices in the new expression, the tongue now pokes through. In the Character Maker the chin is the fifth slider in the third section - shown value 11.
 
