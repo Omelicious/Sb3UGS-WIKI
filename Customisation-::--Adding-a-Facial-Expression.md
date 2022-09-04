@@ -1,5 +1,3 @@
-## Under construction
-
 A new blendshape is created and added as described in [[Morphs or Blendshapes]] described.
 ![Add_expression_01](https://user-images.githubusercontent.com/104311725/188323195-62798d13-899d-4cf1-bd36-0d6b554386b8.png)
 
