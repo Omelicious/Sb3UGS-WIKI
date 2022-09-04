@@ -5,7 +5,7 @@ A new blendshape is created and added as described in [[Morphs or Blendshapes]] 
 
 ![Add_expression_02](https://user-images.githubusercontent.com/104311725/188323343-cac08264-3fcc-4d78-92cf-c1ea12b023bf.png)
 
-The new blendshape here is at index 81. We need to find a free slot in FaceBlendShape MonoBehaviour.
+The new blendshape here is at index 81. We need to find a free slot in FaceBlendShape MonoBehaviour. The list of named expressions for the Character Maker is in abdata\custom\customscenelist\00.unity3d in MonoBehaviour cus_m_ptn.
 
 ![Add_expression_03 - chara_maker_mouth](https://user-images.githubusercontent.com/104311725/188323593-e861d8dc-8406-40b4-9ed4-3f9ef65650b3.png)
 
@@ -13,7 +13,7 @@ We add a new line, in this case with "40, M exp 40" and extend all arrays in Mou
 
 ![Add_expression_04 - FaceBlendShape_Mouth_meshes](https://user-images.githubusercontent.com/104311725/188323899-90ee0e71-153f-42b3-a496-515f3cd6f5ae.png)
 
-Here we put our index for the new expression. The Close expression is the shown when the slider in the game is fully left. And Open is the right most position.
+Here we put our index 81 for the new expression. The Close expression is the shown when the slider in the game is fully left. And Open is the right most position.
 
 ![Add_expression_05 - FaceBlendShape_Mouth_entry40](https://user-images.githubusercontent.com/104311725/188324185-23fe1656-08de-454c-af8e-55b343a92a99.png)
 
@@ -21,6 +21,6 @@ The studio doesn't have the same gui. It simply shows the new index 40.
 
 ![Add_expression_06 - result](https://user-images.githubusercontent.com/104311725/188325075-7bd4f43b-b1fe-4b8f-87ff-a421a62f40b3.png)
 
-Since we did nothing about the other meshes in MouthCtrl, and pulled back the jaw related vertices in the new expression, the tongue now pokes through.
+Since we did nothing about the other meshes in MouthCtrl, and pulled back the jaw related vertices in the new expression, the tongue now pokes through. In the Character Maker the chin is the fifth slider in the third section - shown value 11.
 
 ![Add_expression_00 - break_connection](https://user-images.githubusercontent.com/104311725/188318581-e565926e-9db2-4f06-8e9e-077012f433f3.png)
