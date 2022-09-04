@@ -1,6 +1,6 @@
 ## Under construction
 
-A new blendshape is created and added as described in [https://github.com/enimaroah-cubic/Sb3UGS/wiki/Morphs-or-Blendshapes](Morphs or Blendshapes) described.
+A new blendshape is created and added as described in [[Morphs or Blendshapes]] described.
 ![Add_expression_01](https://user-images.githubusercontent.com/104311725/188323195-62798d13-899d-4cf1-bd36-0d6b554386b8.png)
 
 ![Add_expression_02](https://user-images.githubusercontent.com/104311725/188323343-cac08264-3fcc-4d78-92cf-c1ea12b023bf.png)
