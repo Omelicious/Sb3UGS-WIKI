@@ -41,7 +41,7 @@ Finally we save the file as abdata\ao_neck_example.unity3d. Make sure that it is
 ![Wiki_-_first_steps_-_07_-_save_as](https://user-images.githubusercontent.com/104311725/167825041-40608e45-907b-471d-92f6-dd73444508ad.png)
 
 
-All those steps above using a different accessory can be seen in Making a modified Accessory standalone
+All those steps above using a different accessory can be seen in [[Making a modified Accessory standalone]].
 ### A list entry to integrate your mod into the game
 
 The list entry for a hard mod has a list file which is an AssetBundle file like the geometry file we created before. In such a list file are TextAssets, one for each category. Be careful, the games read duplicates. For a sideloader mod we need to create a CSV file with the same columns and the same category number which is the number enclosed in square brackets in the title - 124 in the following example:
