@@ -1,7 +1,7 @@
 The simplest possible 3d modification would be to open an original AssetBundle file, edit, delete or replace a mesh and save the file. But after such a test, the next step would be to make an independent mod in order to keep original files unmodified. This requires two things, a new AssetBundle file with the contents and a list entry to integrate the mod into the game. In this example we make a new neck accessory in a hard modded way, not for sideloader. But the difference is in the list entry only and the packaging. So a hard mod can be converted very easily.
 ### A new AssetBundle file
 
-Sb3UGS has no create AssetBundle file function. Instead we open **a file of the target game** with minimal content, delete that content and put into the file what we need. And finally we use **Save As...** and give the file a new name and location.
+Sb3UGS has no create AssetBundle file function. Instead we open __a file of the target game__ with minimal content, delete that content and put into the file what we need. And finally we use **Save As...** and give the file a new name and location.
 
 We drag and drop that file into Sb3UGS, preferably into the File or Preview area. mt_ramp_00.unity3d is a good file to start with because it contains only a few textures.
 
