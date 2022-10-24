@@ -9,7 +9,7 @@ We drag and drop that file into Sb3UGS, preferably into the File or Preview area
 
 The first texture is selected with a single left click, then the last texture is selected with a Shift-left click. All textures are deleted with Shift-Del or the use the file's Asset menu. One asset will always remain in the AssetBundle file and it can't be deleted: the AssetBundle asset in the **MonoB & Other** tab.
 
-Orignal files can be browsed for something similar we want to create. One very important aspect is if we want to make a skinned or an unskinned mesh in the AssetBundle, because the former requires a SkinnedMeshRenderer while the latter a MeshRenderer. We make a copy of a brooch from ao_neck_00.unity3d. p_acs_neck_broochV is opened with a double click. The meshes within can be selected and deselected with Ctrl-left click which makes them shown in the Renderer window. For a fast selection they are all listed in the **Mesh** list tab next to the **Object Tree**.
+Orignal files can be browsed for something similar we want to create. One very important aspect is if we want to make a skinned or an unskinned mesh, because the former requires a SkinnedMeshRenderer while the latter a MeshRenderer. We make a copy of a brooch from ao_neck_00.unity3d. p_acs_neck_broochV is opened with a double click. The meshes within can be selected and deselected with Ctrl-left click which makes them shown in the Renderer window. For a fast selection they are all listed in the **Mesh** list tab next to the **Object Tree**.
 ![Wiki_-_first_steps_-_02_-_ao_neck_00](https://user-images.githubusercontent.com/104311725/167824234-cccb4e25-3e9d-4bf3-856f-c53c7e5d7705.png)
 
 We select p_acs_neck_broochV in the file. Then use **Mark/Unmark for Copying** in the file's Asset menu. 
