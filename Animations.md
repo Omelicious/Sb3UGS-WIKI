@@ -6,7 +6,7 @@ AnimatorControllers are containers for clips and can blend between them. Sb3UGS 
 
 No track information can be shown in that state because it requires the skeleton to resolve the hashes stored in the AnimationClip. Open a file with that information. This is available in every piece of clothes, but incomplete. So for a complete resolution open the base body Animator. Then link the AnimatorController to that Animator with the drop down box.
 
-![Wiki_-_animations_-_02](https://user-images.githubusercontent.com/104311725/167838266-9f34763b-337c-459c-b9c9-10d443f483ef.png)
+![wiki - animations - 02](https://user-images.githubusercontent.com/104311725/198281768-4c9c18bc-0a15-488f-8c38-13db7e796533.png)
 
 Since the AnimationClip is still selected the animation track information can be displayed. Sb3UGS does not resolve directly from the skeleton in the Animator, but uses the Animator's Avatar for this. In case that tracks are unknown the Avatar of that Animator needs to be corrected. With the tracks correctly shown Sb3UGS is prepared for further operations, like the preview in the Introduction, export and replacement of animations.
 
