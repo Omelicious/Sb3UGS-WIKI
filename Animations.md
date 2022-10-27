@@ -16,4 +16,4 @@ At the bottom of the image at the top the Controller button is shown. It opens t
 
 Back to the first editor. After editing animations in a 3d editor, dragging the ImportedAnimation from the workspace onto a target AnimationClip shows the following dialog for replacement.
 
-![Wiki_-_animations_-_04](https://user-images.githubusercontent.com/104311725/167838461-844101b7-2df3-4907-958b-57ef541127d0.png)
+![wiki - animations - 04](https://user-images.githubusercontent.com/104311725/198285265-4d5a6f40-d597-4cc7-8fa3-2e040330dc1b.png)
