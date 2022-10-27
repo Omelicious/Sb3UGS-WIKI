@@ -8,7 +8,7 @@ No track information can be shown in that state because it requires the skeleton
 
 ![wiki - animations - 02](https://user-images.githubusercontent.com/104311725/198281768-4c9c18bc-0a15-488f-8c38-13db7e796533.png)
 
-Since the AnimationClip is still selected the animation track information can be displayed. Sb3UGS does not resolve directly from the skeleton in the Animator, but uses the Animator's Avatar for this. In case that tracks are unknown the Avatar of that Animator needs to be corrected. With the tracks correctly shown Sb3UGS is prepared for further operations, like the preview in the [Introduction](https://github.com/enimaroah-cubic/Sb3UGS/wiki#introduction), export and replacement of animations.
+Since the AnimationClip is still selected the animation track information can be displayed. Sb3UGS does not resolve directly from the skeleton in the Animator, but uses the Animator's Avatar for this. In case that tracks are unknown (scroll down to the end of the track list) the Avatar of that Animator needs to be corrected. With the tracks correctly shown Sb3UGS is prepared for further operations, like the preview in the [Introduction](https://github.com/enimaroah-cubic/Sb3UGS/wiki#introduction), export and replacement of animations.
 
 At the bottom of the image at the top the Controller button is shown. It opens the second editor for the same AnimatorController. In most cases the StateMachine tab is required to make required changes for modding. And even that tab does not allow to fully edit the controller.
 
