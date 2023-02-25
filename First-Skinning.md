@@ -14,7 +14,7 @@ Adding geometry for smooth bending.
 
 ![First Skinning - 03](https://user-images.githubusercontent.com/104311725/221356465-981dc0b0-bad9-4ca3-984d-51cd5e4e5394.png)
 
-Creating / extending the skeleton.
+Creating the skeleton.
 
 ![First Skinning - 04](https://user-images.githubusercontent.com/104311725/221356466-d5849ec9-11d3-4761-92ff-f5a5ccec39c9.png)
 
