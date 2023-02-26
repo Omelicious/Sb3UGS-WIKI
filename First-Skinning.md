@@ -14,16 +14,16 @@ Adding geometry for smooth bending.
 
 ![First Skinning - 03](https://user-images.githubusercontent.com/104311725/221356465-981dc0b0-bad9-4ca3-984d-51cd5e4e5394.png)
 
-Creating the skeleton.
+Creating the skeleton. You create joints inside the geometry with some length.
 
 ![First Skinning - 04](https://user-images.githubusercontent.com/104311725/221356466-d5849ec9-11d3-4761-92ff-f5a5ccec39c9.png)
 
-Binding the skeleton to the mesh. This results in getting some default weights for each vertex.
+Binding the skeleton to the mesh. This results in getting some default weights for each vertex. If you have an original mesh from the game with close vertices, you would copy the skin weights afterwards to the new mesh. Without such a template mesh, you have to correct the skin by painting weights manually.
 
 ![First Skinning - 05](https://user-images.githubusercontent.com/104311725/221356468-6ea041b3-3f84-4a04-a75e-85f09082ca9f.png)
 
-Replacing in Sb3UGS. First the skeleton, then the mesh.
+Replacing in Sb3UGS. First the skeleton, then the mesh. When you select a bone from the bone list of the SkinnedMeshRenderer, the preview shows the weights for that bone. Colours are similar to Maya's. Only a weight of 1.0 would be white in Maya and is full red in Sb3UGS.
 
 ![First Skinning - 06](https://user-images.githubusercontent.com/104311725/221356469-c7bab003-d480-40ff-af9b-be0bd8fbec04.png)
 
-For the DynamicBone physics we copy a DynamicBone MB and drag joint2 onto m_Root.
+For the DynamicBone physics we copy a DynamicBone MB and drag the Transform joint2 onto m_Root in the MB.
