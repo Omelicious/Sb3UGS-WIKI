@@ -38,3 +38,7 @@ All columns form nine curves for translation(X, Y, Z), rotation(X, Y, Z), scalin
 The tongue mesh with its morphs imported, the MouthCtrl's corresponding morph t00_sinken03_op fully used, the curve from above keyed, then the timeslider is set to 11 (slider value from chin) * 24 (last key index) / 100 (slider max for chin) = 2.64 and we see the tongue poking through like in the Character Maker. 
 
 ![Add_expression_10 - simulated](https://user-images.githubusercontent.com/104311725/188327021-d98d54d3-5547-45a5-870a-d83ae0934472.png)
+
+### Special cases for toon eyes
+abdata\list\characustom\00.unity3d has the policy for all heads and adding a new expression in it for only one head would cause problems for the others.
+![image](https://user-images.githubusercontent.com/104311725/227199581-e7b4ddf3-03ca-4717-a171-d77c2cc9862b.png)
