@@ -40,6 +40,6 @@ The tongue mesh with its morphs imported, the MouthCtrl's corresponding morph t0
 ![Add_expression_10 - simulated](https://user-images.githubusercontent.com/104311725/188327021-d98d54d3-5547-45a5-870a-d83ae0934472.png)
 
 ### Special cases for toon eyes
-abdata\list\characustom\00.unity3d has the policy for all heads and adding a new expression in it for only one head would cause problems for the others.
+abdata\list\characustom\00.unity3d has the policy for all heads and adding a new expression in it for only one head would cause problems for the others. The toon eyes with gageye meshes use a single morph for the face mesh at index 21.
 ![image](https://user-images.githubusercontent.com/104311725/227203629-411bf77a-1c43-4b4b-b9b8-dbf376730447.png)
 
