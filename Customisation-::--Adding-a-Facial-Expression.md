@@ -41,4 +41,4 @@ The tongue mesh with its morphs imported, the MouthCtrl's corresponding morph t0
 
 ### Special cases for toon eyes
 abdata\list\characustom\00.unity3d has the policy for all heads and adding a new expression in it for only one head would cause problems for the others.
-![image](https://user-images.githubusercontent.com/104311725/227199581-e7b4ddf3-03ca-4717-a171-d77c2cc9862b.png)
+![image](https://user-images.githubusercontent.com/104311725/227201943-933e9b97-d919-4f77-a290-32684a7d4d89.png)
