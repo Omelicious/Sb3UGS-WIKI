@@ -21,7 +21,8 @@ After that the shape of body can be nicely followed with the shrinkwrap deformer
 ![06 - skinning 01 - import original meshes](https://user-images.githubusercontent.com/104311725/234534865-d9c6d551-74cf-441f-90ed-688d89990429.png)  
 Not all joints of the KK skeleton are used. We select one of the template meshes and then let the following script select all used joints:  
 _**{ string $sel[] = \`ls -sl\`; string $inf[] = \`skinCluster -q -inf $sel[0]\`; select $inf; }**_  
-![07 - skinning 02](https://user-images.githubusercontent.com/104311725/234534869-6f5083b4-9a50-4c72-abbe-1fc0c51b48e3.png)
+![07 - skinning 02](https://user-images.githubusercontent.com/104311725/234534869-6f5083b4-9a50-4c72-abbe-1fc0c51b48e3.png)  
+We add select the unskinned meshes and bind the skeleton to them using only the selected joints.  
 ![08 - skinning 03 - bind skeleton](https://user-images.githubusercontent.com/104311725/234534874-fbfefa3b-c3d5-4c90-9ced-d17bb2b0b09b.png)
 ![09 - skinning 04 - copy skin weights procedure](https://user-images.githubusercontent.com/104311725/234534883-99090064-547a-483d-89da-0cba163b124f.png)
 ![11 - verifying the skin using animations](https://user-images.githubusercontent.com/104311725/234534886-f749e604-e98c-4190-9072-d67d07a219fe.png)
