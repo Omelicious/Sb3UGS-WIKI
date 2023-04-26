@@ -37,4 +37,4 @@ For the next newly bound mesh, we unselect the previous destination mesh, and se
 ![40 - GameObject conversion](https://user-images.githubusercontent.com/104311725/234573374-c0ae1a1b-3581-4b56-a902-544c52f3c202.png)  
 
 8. MainTex, Normalmap, Colormask, liquidmask textures were reusable. Detailmask and Linemask were used from a different top, so they don't match here.  
-![99 - first time in KK](https://user-images.githubusercontent.com/104311725/234534904-807ece96-8512-43fb-b97b-62ddd3b1cced.png)
+![99 - HS2 healer in KK](https://user-images.githubusercontent.com/104311725/234577982-1b66151a-52f1-4ca2-ad6c-979ae57f95d6.png)
