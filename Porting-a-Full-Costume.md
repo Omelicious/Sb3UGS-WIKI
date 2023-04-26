@@ -1,3 +1,5 @@
+# Work In Progress
+
 HS2 and KK and several other games have clothes split into top and bottom parts. The second state for the clothes is split likewise. This is reflected in the hierarchy and meshes have to be parented to childs of specific transforms with names like **n_top_a** e.i. That part of the hierarchy is the same for both games and is copied later. But the difference between games is the skeleton the meshes are bound to. So we are required to skin the meshes for KK.
 
 This situation after importing HS2 clothes and the KK body.  
