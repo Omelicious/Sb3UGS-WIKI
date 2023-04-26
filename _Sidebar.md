@@ -16,6 +16,8 @@
 
 **[Blender Clothes Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Blender-Clothes-Cycle)**
 
+**[Porting a Full Costume](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Porting-a-Full-Costume)**
+
 **[Customisation :: Adding a Facial Expression](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Customisation-::--Adding-a-Facial-Expression)**
 
 **[Morphs or Blendshapes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Morphs-or-Blendshapes)**
