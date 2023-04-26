@@ -5,7 +5,7 @@ HS2 and KK and several other games have clothes split into top and bottom parts.
 This is situation after importing HS2 clothes and the KK body.  
 ![01 - KK char and HS2 healer](https://user-images.githubusercontent.com/104311725/234534826-2460b609-f731-4a0a-832d-df62d6ad1f1b.png)  
 
-1. The clothes are skinned for HS2 and that can be used to make a rough adaption for the size.
+1. The clothes are skinned for HS2 and that can be used to make the first adaptions for the size. Scaling the root of the HS2 skeleton leads to the first rough match.  
 ![02 - rough adaption by scaling HS2 skeleton](https://user-images.githubusercontent.com/104311725/234534832-ce72177b-ef0c-453a-9ff8-56e090c8ecaa.png)  
 The additional difference in height of the breasts and even the shape can be adapted by translating, rotating and scaling HS2 breast joints.
 ![03 - smaller adaptions with HS2 joints](https://user-images.githubusercontent.com/104311725/234534837-0a22a577-2932-4b58-a1bd-e44cc67af636.png)  
