@@ -23,9 +23,15 @@ Not all joints of the KK skeleton are used. We select one of the template meshes
 _**{ string $sel[] = \`ls -sl\`; string $inf[] = \`skinCluster -q -inf $sel[0]\`; select $inf; }**_  
 ![07 - skinning 02](https://user-images.githubusercontent.com/104311725/234534869-6f5083b4-9a50-4c72-abbe-1fc0c51b48e3.png)  
 We add select the unskinned meshes and bind the skeleton to them using only the selected joints.  
-![08 - skinning 03 - bind skeleton](https://user-images.githubusercontent.com/104311725/234534874-fbfefa3b-c3d5-4c90-9ced-d17bb2b0b09b.png)
-![09 - skinning 04 - copy skin weights procedure](https://user-images.githubusercontent.com/104311725/234534883-99090064-547a-483d-89da-0cba163b124f.png)
-![11 - verifying the skin using animations](https://user-images.githubusercontent.com/104311725/234534886-f749e604-e98c-4190-9072-d67d07a219fe.png)
-![33 - bodymask painting](https://user-images.githubusercontent.com/104311725/234534894-e797a5a3-fe68-4a50-bda8-63c89165a584.png)
-![34 - using existing bramask](https://user-images.githubusercontent.com/104311725/234534898-85150542-099b-4aa4-b504-9bb8e3bdd927.png)
+![08 - skinning 03 - bind skeleton](https://user-images.githubusercontent.com/104311725/234534874-fbfefa3b-c3d5-4c90-9ced-d17bb2b0b09b.png)  
+The default weights each vertex got from the previous step would lead to ugly deformations. Now we select those good template meshes, add select one newly bound mesh as destination, and then copy skin weights.  
+![09 - skinning 04 - copy skin weights procedure](https://user-images.githubusercontent.com/104311725/234534883-99090064-547a-483d-89da-0cba163b124f.png)  
+For the next newly bound mesh, we unselect the previous destination mesh, and select that new one instead, and repeat the copying. Special case for adjacent meshes! Sight-blocking meshes and corresponding top and bottom meshes with common border vertices require the exact same weights for the exact same joints. In the healer costume we can skin cf_top_healer_a_0 and f_top_healer_huta_0 independently with the steps above. But when we begin the skinning for the bottom meshes, we need also select one of the two as source meshes to get the exact same weights. This is because for skinning of the bottom meshes we may use different meshes as sources than the one's we used when skinning the top meshes.  
+4. For verifying the new weights we import an original animation. Especially for roll bones which correct parts which would look ugly from rotating natural joint - elbows e.i. - the original animations show us what we will see in the game (except for the customization of the character).  
+![11 - verifying the skin using animations](https://user-images.githubusercontent.com/104311725/234534886-f749e604-e98c-4190-9072-d67d07a219fe.png)  
+5. Painting the bodymask texture in 3d is nice, but you could also paint it in 2d with the help of the UV map.  
+![33 - bodymask painting](https://user-images.githubusercontent.com/104311725/234564868-cba6cb2f-f1ab-4a47-b2e5-d13dfb198ce9.png)
+6. When a bramask texture already works, there is no need for creating it again.  
+![34 - using existing bramask](https://user-images.githubusercontent.com/104311725/234534898-85150542-099b-4aa4-b504-9bb8e3bdd927.png)  
+7. MainTex, Normalmap, Colormask, liquidmask textures were reusable. Detailmask and Linemask were used from a different top, so they don't match here.  
 ![99 - first time in KK](https://user-images.githubusercontent.com/104311725/234534904-807ece96-8512-43fb-b97b-62ddd3b1cced.png)
