@@ -15,7 +15,7 @@ The new part of the hierarchy is then moved into the KK hierarchy by drag 'n dro
 ![04a - moving copied hierarchy and meshes](https://user-images.githubusercontent.com/104311725/234534858-3a048369-007f-41e4-8865-bf5d9bb5b9b4.png)  
 
 2. **Further editing without the HS2 skin begins with welding the meshes - merge each mesh with a small distance**.  
-After that the shape of body can be nicely followed with the shrinkwrap deformer.  
+After that the shape of the body can be nicely followed with the shrinkwrap deformer.  
 ![05 - merge, shrinkwrap, etc](https://user-images.githubusercontent.com/104311725/234534861-a16bb50d-3c6b-43db-a7d8-fe64b06fd9be.png)  
 3. For the skinning we need good template meshes - meshes skinned to the KK skeleton with close vertices to all vertices of the new meshes.  
 ![06 - skinning 01 - import original meshes](https://user-images.githubusercontent.com/104311725/234534865-d9c6d551-74cf-441f-90ed-688d89990429.png)  
