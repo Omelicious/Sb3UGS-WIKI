@@ -4,7 +4,7 @@
 
 **[Production Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Production-Cycle)**
 
-**[[Create Head Accessories at the right Location for HS2]]**
+**[Create Head Accessories at the right Location](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Create-Head-Accessories-at-the-right-Location-for-HS2)**
 
 **[Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)**
 
