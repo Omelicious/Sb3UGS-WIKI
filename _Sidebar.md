@@ -1,8 +1,8 @@
 ### The recommended order of reading. Increasing difficulty.
 
-**[First Steps](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Steps)**
-
 **[Production Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Production-Cycle)**
+
+**[First Steps](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Steps)**
 
 **[Create Head Accessories at the right Location](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Create-Head-Accessories-at-the-right-Location-for-HS2)**
 
