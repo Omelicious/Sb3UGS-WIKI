@@ -31,7 +31,10 @@ For the next newly bound mesh, we unselect the previous destination mesh, and se
 ![11 - verifying the skin using animations](https://user-images.githubusercontent.com/104311725/234534886-f749e604-e98c-4190-9072-d67d07a219fe.png)  
 5. Painting the bodymask texture in 3d is nice, but you could also paint it in 2d with the help of the UV map.  
 ![33 - bodymask painting](https://user-images.githubusercontent.com/104311725/234564868-cba6cb2f-f1ab-4a47-b2e5-d13dfb198ce9.png)
-6. When a bramask texture already works, there is no need for creating it again.  
-![34 - using existing bramask](https://user-images.githubusercontent.com/104311725/234534898-85150542-099b-4aa4-b504-9bb8e3bdd927.png)  
-7. MainTex, Normalmap, Colormask, liquidmask textures were reusable. Detailmask and Linemask were used from a different top, so they don't match here.  
+6. When a bramask texture already works, there is no need for creating it again. Note the usage of the **second** UV map of the bra meshes.  
+![34 - using existing bramask](https://user-images.githubusercontent.com/104311725/234534898-85150542-099b-4aa4-b504-9bb8e3bdd927.png) 
+7. When using Sb3UGS to edit the ChaClothesComponent MB, make sure to convert the reference for the optional clothes parts after dragging the **Transform**. Click "GameObject" to reference the hosting **GameObject** instead of the **Transform** asset. The game will crash when it references the wrong asset.  
+![40 - GameObject conversion](https://user-images.githubusercontent.com/104311725/234573374-c0ae1a1b-3581-4b56-a902-544c52f3c202.png)  
+
+8. MainTex, Normalmap, Colormask, liquidmask textures were reusable. Detailmask and Linemask were used from a different top, so they don't match here.  
 ![99 - first time in KK](https://user-images.githubusercontent.com/104311725/234534904-807ece96-8512-43fb-b97b-62ddd3b1cced.png)
