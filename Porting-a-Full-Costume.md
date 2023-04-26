@@ -11,8 +11,9 @@ The clothes are skinned for HS2 and that can be used to make a rough adaption fo
 The additional difference in height of the breasts and even the shape can be adapted by translating, rotating and scaling HS2 breast joints.  
 ![03 - smaller adaptions with HS2 joints](https://user-images.githubusercontent.com/104311725/234534837-0a22a577-2932-4b58-a1bd-e44cc67af636.png)  
 
-Not all differences in proportions must be adapted at this point. But to reduce complexity of deformers we stopped here, and now copy the full mesh hierarchy!  
-![04 - copying hierarchy and meshes](https://user-images.githubusercontent.com/104311725/234534850-df1b1d1f-d841-46cf-845f-efcaac5a77a9.png)
+Not all differences in proportions must be adapted at this point. But to reduce complexity of deformers we stopped here, and now copy the full mesh hierarchy with Ctrl-D (Edit / Duplicate) !  
+![04 - copying hierarchy and meshes](https://user-images.githubusercontent.com/104311725/234534850-df1b1d1f-d841-46cf-845f-efcaac5a77a9.png)  
+The new part of the hierarchy is then moved into the KK hierarchy by drag 'n drop with the middle mouse button.  
 ![04a - moving copied hierarchy and meshes](https://user-images.githubusercontent.com/104311725/234534858-3a048369-007f-41e4-8865-bf5d9bb5b9b4.png)
 ![05 - merge, shrinkwrap, etc](https://user-images.githubusercontent.com/104311725/234534861-a16bb50d-3c6b-43db-a7d8-fe64b06fd9be.png)
 ![06 - skinning 01 - import original meshes](https://user-images.githubusercontent.com/104311725/234534865-d9c6d551-74cf-441f-90ed-688d89990429.png)
