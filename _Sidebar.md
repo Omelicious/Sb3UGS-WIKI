@@ -1,12 +1,12 @@
 ### The recommended order of reading. Increasing difficulty.
 
-[First Steps](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Steps)
+**[First Steps](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Steps)**
 
-[Production Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Production-Cycle)
+**[Production Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Production-Cycle)**
 
-[[Create Head Accessories at the right Location for HS2]]
+**[[Create Head Accessories at the right Location for HS2]]**
 
-[Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)
+**[Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)**
 
 [Making a modified Accessory standalone](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Making-a-modified-Accessory-standalone)
 
@@ -19,11 +19,12 @@
 [Customisation :: Adding a Facial Expression](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Customisation-::--Adding-a-Facial-Expression)
 
 [Morphs or Blendshapes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Morphs-or-Blendshapes)
-
+**
 ### Special topics / Background information
-
+**
 [[Animations]]
 
 [[AssetBundle Compression]]
 
 [Small excursion about external materials and textures](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Small-excursion-about-external-materials-and-textures)
+**
