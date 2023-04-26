@@ -25,4 +25,4 @@
 
 **[[AssetBundle Compression]]**
 
-**[Small excursion about external materials and textures](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Small-excursion-about-external-materials-and-textures)**
+**[External materials and textures](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Small-excursion-about-external-materials-and-textures)**
