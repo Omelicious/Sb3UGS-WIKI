@@ -62,8 +62,8 @@ For a hard mod it is required to use a unique ID across all original IDs for thi
    b) folder structure in the zipmod. List files in `abdata\list` or `abdata\studio\info` respectively, AssetBundle files in subfolders of `abdata`  
 2. List files have the correct columns for respective categories. Studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
 3. AB checks  
-   a) LZ4H compressed  
-   b) names of prefabs/Animators match with the list column MainData  
-   c) Meshes in the prefab/Animators on the Layers CHARA or MAP  
+   a) LZ4 High compressed  
+   b) names of prefabs/Animators match with the list column `MainData`  
+   c) Meshes in the prefab/Animators on the Layers `CHARA` (A) or `MAP` (B)  
    d) Meshes correctly parented: accessories parented by N_move, clothes by `n_{top|bot}_{a|b|c}`  
    e) MonoBehaviours: ChaAccessoryComponent/CmpAccessory, ChaClothesComponent/CmpClothes, etc. fields `rendNormal` have the renderers.  
