@@ -36,5 +36,7 @@ For the next newly bound mesh, we unselect the previous destination mesh, and se
 7. When using Sb3UGS to edit the ChaClothesComponent MB, make sure to convert the reference for the optional clothes parts after dragging the **Transform**. Click "GameObject" to reference the hosting **GameObject** instead of the **Transform** asset. The game will crash when it references the wrong asset.  
 ![40 - GameObject conversion](https://user-images.githubusercontent.com/104311725/234573374-c0ae1a1b-3581-4b56-a902-544c52f3c202.png)  
 
-8. MainTex, Normalmap, liquidmask textures were reusable. Colormask has the right UV layout, but the colours are not fully compatible. Detailmask and Linemask were used from a different top, so they don't match here.  
-![99 - HS2 healer in KK](https://user-images.githubusercontent.com/104311725/234579744-da4ab754-9832-477c-9174-656e06876285.png)
+8. MainTex, Normalmap, liquidmask textures were reusable. Detailmask and Linemask don't match here.  
+Colormasks have the right UV layout, but the channels needed some inverting and swapping.  
+![94 - ColorMask](https://user-images.githubusercontent.com/104311725/235210146-772ad424-be04-45a1-a076-e7882d9cc0c5.png)
+![99 - HS2 healer in KK](https://user-images.githubusercontent.com/104311725/235210214-0fcfafa9-2e2d-4b2a-822a-611df0246891.png)
