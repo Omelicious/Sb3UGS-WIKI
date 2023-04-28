@@ -67,6 +67,6 @@ For a hard mod it is required to use a unique ID across all original IDs for thi
    c) Meshes in the prefab/Animators on the Layers `CHARA` (A) or `MAP` (B)  
    d) Meshes correctly parented: accessories parented by N_move, clothes by `n_{top|bot}_{a|b|c}`  
    e) MonoBehaviours: ChaAccessoryComponent/CmpAccessory, ChaClothesComponent/CmpClothes, etc.
-      * Fields `rendNormal`, `rendAlpha` have the renderers  
+      * Fields `rendCheckVisible`, `rendNormal`, `rendAlpha` have the renderers  
       * Fields for optional parts `objOpt#` and choices of sleeves `objSleeves#` reference `GameObjects` not `Transforms`  
-      * No `PathID=0` entries in arrays
+      * No `PathID=0` entries in arrays  
