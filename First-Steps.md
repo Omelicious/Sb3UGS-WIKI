@@ -57,9 +57,9 @@ Then we **Save As...** the file with a new name but in the same location.
 For a hard mod it is required to use a unique ID across all original IDs for this category. The filenames are free to choose, but the partial geometry filepath must match with the MainAB column in the list entry as MainData must match the Animator. In the geometry files this Animator was purple. Like the black ones, they both started in Unity editor as prefabs and got assigned to that AssetBundle. In Sb3UGS both are named and listed in the Animator tab - the black one with an Animator asset and the purple one without. For this reason purple Animators are also called virtual Animators. The explanation will come in a page for animations.
 
 ### Debugging mods
-1. In case of zipmods, see <https://github.com/IllusionMods/BepisPlugins/wiki/1-Introduction-to-zipmod-format> and the example page  
+1. In case of zipmods, see [Introduction to zipmod format](https://github.com/IllusionMods/BepisPlugins/wiki/1-Introduction-to-zipmod-format) and [How to create a simple zipmod](https://github.com/IllusionMods/BepisPlugins/wiki/2-How-to-create-a-simple-zipmod)  
    a) no compression of the zipmod  
-   b) folder structure in the zipmod. Path in your list entry for ABs match? See <https://github.com/IllusionMods/BepisPlugins/wiki/2-How-to-create-a-simple-zipmod>  
+   b) folder structure in the zipmod. Path in your list entry for ABs match?  
 2. List files in the right location, structures correct for respective categories, studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
 3. AB checks  
    a) LZ4H compressed  
