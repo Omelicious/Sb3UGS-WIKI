@@ -59,8 +59,8 @@ For a hard mod it is required to use a unique ID across all original IDs for thi
 ### Debugging mods
 1. In case of zipmods, see [Introduction to zipmod format](https://github.com/IllusionMods/BepisPlugins/wiki/1-Introduction-to-zipmod-format) and [How to create a simple zipmod](https://github.com/IllusionMods/BepisPlugins/wiki/2-How-to-create-a-simple-zipmod)  
    a) no compression of the zipmod  
-   b) folder structure in the zipmod. List files in `abdata\list` or `abdata\studio\info` respectively, AssetBundle files in subfolders of `abdata`?  
-2. List files in the right location, structures correct for respective categories, studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
+   b) folder structure in the zipmod. List files in `abdata\list` or `abdata\studio\info` respectively, AssetBundle files in subfolders of `abdata`  
+2. List files have the correct columns for respective categories. Studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
 3. AB checks  
    a) LZ4H compressed  
    b) names of prefabs/Animators match with the list column MainData  
