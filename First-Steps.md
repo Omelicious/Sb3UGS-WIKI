@@ -60,7 +60,7 @@ For a hard mod it is required to use a unique ID across all original IDs for thi
 1. In case of zipmods, see [Introduction to zipmod format](https://github.com/IllusionMods/BepisPlugins/wiki/1-Introduction-to-zipmod-format) and [How to create a simple zipmod](https://github.com/IllusionMods/BepisPlugins/wiki/2-How-to-create-a-simple-zipmod)  
    a) No compression of the zipmod  
    b) Folder structure in the zipmod. List files in `abdata\list` or `abdata\studio\info` respectively, AssetBundle files in subfolders of `abdata`  
-2. List files
+2. List files  
    a) have the correct columns for their respective categories. Do not reuse a list file of a different category!  
    b) Studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
 3. AB checks  
