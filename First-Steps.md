@@ -58,12 +58,15 @@ For a hard mod it is required to use a unique ID across all original IDs for thi
 
 ### Debugging mods
 1. In case of zipmods, see [Introduction to zipmod format](https://github.com/IllusionMods/BepisPlugins/wiki/1-Introduction-to-zipmod-format) and [How to create a simple zipmod](https://github.com/IllusionMods/BepisPlugins/wiki/2-How-to-create-a-simple-zipmod)  
-   a) no compression of the zipmod  
-   b) folder structure in the zipmod. List files in `abdata\list` or `abdata\studio\info` respectively, AssetBundle files in subfolders of `abdata`  
+   a) No compression of the zipmod  
+   b) Folder structure in the zipmod. List files in `abdata\list` or `abdata\studio\info` respectively, AssetBundle files in subfolders of `abdata`  
 2. List files have the correct columns for respective categories. Studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
 3. AB checks  
    a) LZ4 High compressed  
-   b) names of prefabs/Animators match with the list column `MainData`  
+   b) Names of prefabs/Animators match with the list column `MainData`  
    c) Meshes in the prefab/Animators on the Layers `CHARA` (A) or `MAP` (B)  
    d) Meshes correctly parented: accessories parented by N_move, clothes by `n_{top|bot}_{a|b|c}`  
-   e) MonoBehaviours: ChaAccessoryComponent/CmpAccessory, ChaClothesComponent/CmpClothes, etc. fields `rendNormal` have the renderers.  
+   e) MonoBehaviours: ChaAccessoryComponent/CmpAccessory, ChaClothesComponent/CmpClothes, etc.
+      * Fields `rendNormal`, `rendAlpha` have the renderers  
+      * Fields of optional parts `objOpt#` and choices of sleeves `objSleeves#` references `GameObject`s  
+      * No `PathID=0` entries in arrays
