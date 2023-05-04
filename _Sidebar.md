@@ -4,7 +4,7 @@
 
 **[First Steps](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Steps)**
 
-**[Painting-Eye-Lashes-in-2d](https://github.com/enimaroah/SB3Utility/wiki/Painting-Eye-Lashes-in-2d)**  
+**[Painting Eye-Lashes in 2d](https://github.com/enimaroah/SB3Utility/wiki/Painting-Eye-Lashes-in-2d)**  
 
 **[Create Head Accessories at the right Location](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Create-Head-Accessories-at-the-right-Location-for-HS2)**
 
