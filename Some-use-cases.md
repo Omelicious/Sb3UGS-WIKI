@@ -13,4 +13,14 @@ If you forgot to mark an asset, you can repeat the marking and pasting. See the 
 Open MBs (like all other "green" assets) with a double-click in the Object Tree or in the "MonoB. & Other" file tab.
 Click on a line then edit the value in the input field at the bottom. For references you can use drag 'n drop. And even for that is a tooltip in the input field.
 
+Editors open with docked state in the middle. And as long as they are docked you need to drag the assets over the titles to reach the destination Object Tree:
+
+![dnd_docked](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/fd2ff38e-ba84-4cab-a8ec-16cb756d01a0)
+
+
+Titles can be dragged and then the editor gets undocked which makes drag 'n drop operations a little easier:
+
+![dnd_undocked](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/c1029803-88c8-407e-bfcb-2c711d94e10c)
+
+
 ![DND_demo2](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/08ecb590-d5ca-411d-8a0a-8bce514f206e)
