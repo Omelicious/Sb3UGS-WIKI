@@ -23,6 +23,6 @@ Titles can be dragged and then the editor gets undocked which makes drag 'n drop
 ![dnd_undocked](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/c1029803-88c8-407e-bfcb-2c711d94e10c)
 
 
-MBs can be copied inside the same Object Tree, even into the same hosting GameObject. In this example an accessory has one DynamicBone MB. The MB gets opened and a new m_Root Transform. The MB is then copied, opened and that copy gets a different m_Root Transform.
+MBs can be copied inside the same Object Tree, even into the same hosting GameObject. In this example an accessory has one DynamicBone MB. The MB gets opened and a new m_Root Transform is assigned. The MB is then copied, opened and that copy gets a different m_Root Transform assigned.
 
 ![dnd_references](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/1feea03f-dee0-4c09-a2f4-c7164ce61721)
