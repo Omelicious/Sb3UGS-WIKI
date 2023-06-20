@@ -10,7 +10,7 @@
 
 **[Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)**
 
-**[Making a modified Accessory standalone](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Making-a-modified-Accessory-standalone)**
+**[Some Use Cases](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Some-use-cases)**
 
 **[First Skinning](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Skinning)**
 
