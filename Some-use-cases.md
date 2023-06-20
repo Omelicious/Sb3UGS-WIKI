@@ -12,4 +12,5 @@ If you forgot to mark an asset, you can repeat the marking and pasting. See the 
 
 Open MBs (like all other "green" assets) with a double-click in the Object Tree or in the "MonoB. & Other" file tab.
 Click on a line then edit the value in the input field at the bottom. For references you can use drag 'n drop. And even for that is a tooltip in the input field.
+
 ![DND_demo2](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/08ecb590-d5ca-411d-8a0a-8bce514f206e)
