@@ -26,6 +26,8 @@ Export in Blender, import in Sb3UGS. The same mesh parent means that the new mes
 
 ![N_move helper - 07](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/4a3f8b3d-f768-426d-85db-12e626644a6a)
 
+The miraculous Y translation is visible in first blender screenshot above directly after import. 0.01 seems to be freely invented for unknown reason. Maybe the new mesh would get not translated if we applied the same -0.01 to it.
+
 Drag 'n drop with the following options into the Blue Area: 
 
 ![N_move helper - 08](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/b57acba8-a87d-4554-aab4-9ee61b8e8c4c)
