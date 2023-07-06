@@ -1,4 +1,4 @@
-This is easier than the Blender Clothes Cycle because Blender's FBX importer keeps the parenting of unskinned meshes. But to ease with the creating of the mesh parents you can import an accessory and use its hierarchy. 
+This is easier than the **[Blender Clothes Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Blender-Clothes-Cycle)** because Blender's FBX importer keeps the parenting of unskinned meshes. But to ease with the creating of the mesh parents you can import an accessory and use its hierarchy. 
 
 Check all Transforms. Easy requires that all Transforms have an Identity transformation matrix. 
 
