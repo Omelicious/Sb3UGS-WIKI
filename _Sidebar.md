@@ -8,6 +8,8 @@
 
 **[Create Head Accessories at the right Location](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Create-Head-Accessories-at-the-right-Location-for-HS2)**
 
+**[Blender Accessory Helper](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Blender-Accessory-Helper)**
+
 **[Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)**
 
 **[Some Use Cases](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Some-use-cases)**
