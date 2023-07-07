@@ -1,6 +1,10 @@
 This is easier than the **[Blender Clothes Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Blender-Clothes-Cycle)** because Blender's FBX importer keeps the parenting of unskinned meshes. But to ease with the creating of the mesh parents you can import an accessory and use its hierarchy. 
 
-Check all Transforms. Easy requires that all Transforms have an Identity transformation matrix. 
+Check all Transforms. Easy requires that **all Transforms** have an **Identity** transformation matrix. If any is not then correct them:
+
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/cb282a94-12bb-4931-aa28-cee9bc6950e6)
+
+Then select a mesh for export either in the Object Tree or in the Mesh list.
 
 ![N_move helper - 01](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/8877bafe-34b3-4b57-aa3b-962d6ef15618)
 
