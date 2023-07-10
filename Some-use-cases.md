@@ -33,7 +33,7 @@ When the skeleton already is in the Animator and had not been changed, then you 
 
 ![dnd_smr_replace_01](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/fbf52f47-b26c-433e-bc78-c33744262ce4)
 
-Note the number of bones of SkinnedMeshRenderer and the number of bones of the ImportedMesh. The Blue Area lets Sb3UGS search for a mesh with the same name in the Animator. No need to drop precisely onto a **Destination Transform** in the dialog. The default method is **Merge**, but we don't want to retain anything from the SkinnedMeshRenderer (especially not the long bone list), so we change the method to **Replace**. 
+Note the number of bones of SkinnedMeshRenderer and the number of bones of the ImportedMesh. The Blue Area lets Sb3UGS search for a mesh with the same name in the Animator. No need to drop precisely onto a Transform in the Animator or change the **Destination Transform** in the dialog. The default method is **Merge**, but we don't want to retain anything from the SkinnedMeshRenderer (especially not the long bone list), so we change the method to **Replace**. 
 
 ![dnd_smr_replace_02](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/51b545cc-7db5-497f-b6b3-9caaf6d37a9d)
 
