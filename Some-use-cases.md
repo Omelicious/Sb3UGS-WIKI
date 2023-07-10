@@ -26,3 +26,15 @@ Titles can be dragged and then the editor gets undocked which makes drag 'n drop
 MBs can be copied inside the same Object Tree, even into the same hosting GameObject. In this example an accessory has one DynamicBone MB. The MB gets opened and a new m_Root Transform is assigned. The MB is then copied, opened and that copy gets a different m_Root Transform assigned.
 
 ![dnd_references](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/1feea03f-dee0-4c09-a2f4-c7164ce61721)
+
+### Replacing a skinned mesh
+This is an advanced use case and requires an understanding of skinned meshes.
+When the skeleton already is in the Animator and had not been changed, then you can replace an existing mesh in place like shown below. 
+
+![dnd_smr_replace_01](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/fbf52f47-b26c-433e-bc78-c33744262ce4)
+
+Note the number of bones of SkinnedMeshRenderer and the number of bones of the ImportedMesh. The Blue Area lets Sb3UGS search for a mesh with the same name in the Animator. No need to drop precisely onto a **Destination Transform** in the dialog. The default method is **Merge**, but we don't want to retain anything from the SkinnedMeshRenderer (especially not the long bone list), so we change the method to **Replace**. 
+
+![dnd_smr_replace_02](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/51b545cc-7db5-497f-b6b3-9caaf6d37a9d)
+
+Since the mesh is already shown in the preview and had more than the supported number of bones for Sb3UGS, it gets shown animated like body and other clothes only after replacement.
