@@ -12,7 +12,9 @@
 
 **[Replacing Meshes](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Replacing-Meshes)**
 
-**[Some Use Cases](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Some-use-cases)**
+### Some Use Cases
+* **[Making a modified Accessory standalone](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Some-use-cases#making-a-modified-accessory-standalone)**
+* **[Editing MonoBehaviours](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Some-use-cases#editing-monobehaviours)**
 
 **[First Skinning](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Skinning)**
 
