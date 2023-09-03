@@ -63,6 +63,7 @@ For a hard mod it is required to use a unique ID across all original IDs for thi
 2. List files  
    a) have the correct columns for their respective categories. Do not reuse a list file of a different category!  
    b) Studio items don't need an extra group or category - hijack an existing group and category! Only the listItem_XX_{group}_{category} file will remain.  
+   c) Paths are case-sensitive! Check columns like MainAB, MatAB, etc. to match exactly the path in the zipmod.   
 3. AB checks  
    a) LZ4 High compressed  
    b) Names of prefabs/Animators match with the list column `MainData`  
