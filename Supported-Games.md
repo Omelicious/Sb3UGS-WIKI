@@ -1,6 +1,6 @@
 ### Latest supported titles are Unity3d based
 
-    Honey Come Trial
+    Honey Come
     Room Girl
     Koikatsu Sunshine
     HoneySelect 2
