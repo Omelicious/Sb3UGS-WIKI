@@ -6,7 +6,7 @@
 
 **[Painting Eye Lashes in 2d](https://github.com/enimaroah/SB3Utility/wiki/Painting-Eye-Lashes-in-2d)**
 
-**[A new Texture choice in HC](https://github.com/enimaroah-cubic/Sb3UGS/wiki/A-new-texture-choice-for-HC)**  
+**[A new Texture choice for HC](https://github.com/enimaroah-cubic/Sb3UGS/wiki/A-new-texture-choice-for-HC)**  
 
 **[Create Head Accessories at the right Location](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Create-Head-Accessories-at-the-right-Location-for-HS2)**
 
