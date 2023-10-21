@@ -5,7 +5,16 @@ Let's begin with the contents - a texture for the iris of the eye. Drag 'n drop 
 
 Click "Export". There is no dialog with the destination. You find the texture exported in the game folder. If you can't find it, see the Script window with the export statement.
 
-Editing in Gimp .... ltr.
+Editing in Gimp
+
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/742cb47c-2121-4068-a95d-114dcbd629bb)
+1. Scale upwards, so that the ellipse becomes a circle
+2. Rotate the circle. Gimp extends the resolution!
+3. Crop to the former upscaled resolution in step #1
+4. Scale downwards to original resolution
+
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/eb2c6208-252d-423d-a8a3-0ef26040b5c5)
+
 
 Drag 'n drop your edited texture into Sb3UGS:
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/c9b5a3db-b67e-4fa7-afee-6883992a2ef9)
