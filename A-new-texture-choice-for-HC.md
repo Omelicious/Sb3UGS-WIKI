@@ -46,3 +46,12 @@ Then delete all other TextAssets in the file and like with the contents AB use "
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/17b89052-2b3f-4dae-9d04-5c5e3a8a857c)
 
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/ab9523e1-2b60-4f26-97ea-8d9b6233e898)
+
+
+### A different texture for clothes?
+
+Same thing. This example shows one for the bra category. The texture is handled in the same way as above. Only the list TextAsset and entry are different. So we put co_bra[000_02] TextAsset from 000_00.unity3d into our own list file as above with the edited content. A unique ID, display name and the AB with the texture are different. The texture got the same name in the new file for the new choice.
+
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/ed3a4b3e-3a84-4d6c-b86e-f0e52d1b2bdb)
+
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/e0ed453d-afa0-4a1a-a10f-344a51e5ff2e)
