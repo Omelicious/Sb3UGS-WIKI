@@ -23,6 +23,8 @@
 
 **[Porting a Skinned Mesh](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Porting-a-Skinned-Mesh)**
 
+**[MagicaBoneCloth Helpers](https://github.com/enimaroah-cubic/Sb3UGS/wiki/MagicaBoneCloth-Helpers)**
+
 **[Blender Clothes Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Blender-Clothes-Cycle)**
 
 **[Porting a Full Costume](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Porting-a-Full-Costume)**
