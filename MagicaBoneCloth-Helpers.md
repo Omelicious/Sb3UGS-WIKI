@@ -46,4 +46,4 @@ The workflow:
 2. "Check MagicaBoneCloth"
 3. correct MBC MB first before the other MBs
 
-If you want to retain a member uncheck its checkbox. Sb3UGS skips it for new creation, but computes depending members with the member's unchanged data.
+If you want to retain a member's data uncheck its checkbox. Sb3UGS skips it for new creation, but computes depending members with the member's unchanged data.
