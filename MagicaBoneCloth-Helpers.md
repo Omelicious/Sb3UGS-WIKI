@@ -2,7 +2,7 @@ MagicaBoneCloth (MBC) consists of four MonoBehaviours, that play together. The M
 
 MBCs can be referenced from ChaClothesComponent MB but there was no example of ChaClothesComponent which used it. The more interesting usage is in ChaCustomHairComponent MB and there those MBCs are always present, except for "Movers". See the example below.
 
-The helpers in Sb3UGS aim to make MBCs valid. They have nothing related to the physics, nor do they reference MBCs automatically in ChaCustomHairComponent MBs.
+The helpers in Sb3UGS aim to make MBCs valid. They have nothing related to the physics, nor do they reference MBCs automatically in ChaCustomHairComponent MBs. To get a good behaviour in your hair or clothes choose an original with those physics for copying. See the workflow at the bottom.
 
 
 ### Single Root
