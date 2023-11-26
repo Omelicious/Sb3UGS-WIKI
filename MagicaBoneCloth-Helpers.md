@@ -1,5 +1,8 @@
 MagicaBoneCloth (MBC) consists of four MonoBehaviours, that play together. The MagicaBoneCloth MB is integrated into the hierarchy, either in the root or close to the strand it works on. It has references to a ClothData MB, a SelectionData MB and a MeshData MB. The SelectionData MB seems to be optional, but can also be shared by several MagicaBoneCloth MBs. If ClothData MB or MeshData MB are not present, the strand doesn't get animated from the MBC.
 
+The MBCs can be referenced from ChaClothesComponent MB but there was no example of ChaClothesComponent which used it. The more interesting usage is in ChaCustomHairComponent MB and there those MBCs are always present, except for "Movers". See the example below.
+
+
 ### Single Root
 
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/ad8c9244-6a61-40bc-b87b-5d924a397f07)
@@ -33,3 +36,6 @@ MBC MB at the root of the hierarchy
 ### Odd Single Root
 
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/b14717c2-7b33-4b1f-b689-66a2957bb052)
+
+
+
