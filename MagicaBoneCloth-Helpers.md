@@ -23,7 +23,7 @@ MBC MB inside the hierarchy like in the single strand situation
 MBC MB at the root of the hierarchy
 
 
-![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/da2e8cfe-767a-4e8a-a5bc-515990c7ead3)
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/480f57fd-2d98-497a-9e2d-8382d7029892)
 
 
 
@@ -39,3 +39,11 @@ MBC MB at the root of the hierarchy
 
 
 
+MBCs are handled like all other MBs in Sb3UGS. Copying is drag 'n drop, even inside the same hierarchy. Since there are different configurations (single root, single root with mover, etc) you want to copy the best match for your situation. In case of movers, copy both MBCs into your hierarchy's strand. The computations in Sb3UGS consider those movers.
+
+The workflow:
+1. edit the root(s) first
+2. "Check MagicaBoneCloth"
+3. correct MBC MB first before the other MBs
+
+If you want to retain a member uncheck its checkbox. Sb3UGS skips it for new creation, but computes depending members with the member's unchanged data.
