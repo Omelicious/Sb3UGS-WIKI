@@ -1,5 +1,7 @@
 ### The recommended order of reading. Increasing difficulty.
 
+**[Introduction](https://github.com/enimaroah-cubic/Sb3UGS/wiki)**
+
 **[Production Cycle](https://github.com/enimaroah-cubic/Sb3UGS/wiki/Production-Cycle)**
 
 **[First Steps](https://github.com/enimaroah-cubic/Sb3UGS/wiki/First-Steps)**
