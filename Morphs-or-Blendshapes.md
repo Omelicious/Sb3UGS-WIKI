@@ -44,3 +44,10 @@ Imported with Blender, but the same situation requires to export with "Flat In-b
 The naming of meshes and morphs in Blender is even more important to have an easy import and replacement in Sb3UGS afterwards. But this naming allows to create in-between Blendeshapes with Blender which can be used in the games.
 
 ![Wiki_-_morphs_-_07_-_in-between_blendshapes_exported_with_Blender](https://user-images.githubusercontent.com/104311725/167837260-a3b04fee-7d62-4753-acf2-c02ed3f0ec77.png)
+
+### Custom normals in Blendshapes
+
+Neither Maya nor Blender seemed to be able to import and export custom normals of blend targets. But FbxSDK can import and export them. So you can use Sb3UGS to make backups when they are present and you can restore them.
+
+But bringing custom normals into a Mesh asset for the first time requires to bake shape targets as meshes. The ImportedMesh in the workspace can then be dragged and dopped onto an ImportedMorphKeyframe. See the message in Log for the result. Afterwards you replace the ImportMorphKeyframe like regular.
+
