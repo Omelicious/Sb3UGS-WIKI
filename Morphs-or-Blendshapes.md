@@ -51,3 +51,4 @@ Neither Maya nor Blender seemed to be able to import and export custom normals o
 
 But bringing custom normals into a Mesh asset for the first time requires to bake shape targets as meshes. The ImportedMesh in the workspace can then be dragged and dopped onto an ImportedMorphKeyframe. See the message in Log for the result. Afterwards you replace the ImportMorphKeyframe like regular.
 
+![CustomNormals in Blendshapes](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/55d8ba5f-6544-49c4-9c62-a3113df28bab)
