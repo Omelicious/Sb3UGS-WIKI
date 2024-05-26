@@ -51,6 +51,6 @@ Neither Maya nor Blender seemed to be able to import and export custom normals o
 
 But bringing custom normals into a Mesh asset for the first time requires to bake shape targets as meshes. The ImportedMesh in the workspace can then be dragged and dopped onto an ImportedMorphKeyframe. See the message in Log for the result. Afterwards you replace the ImportMorphKeyframe like regular.
 
-![CustomNormals in Blendshapes](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/df759b21-b0d0-44f6-9502-2809d770420e)
+![CustomNormals in Blendshapes](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/b2fdaf7c-0a31-49ae-96dd-4897fc7a8f42)
 
 There is no naming convention for meshes when single keyframes are replaced, but naming meshes as in the example above allows to replace them all togther with a single drag 'n drop. See also the comment in the Morph editor.
