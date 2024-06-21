@@ -55,3 +55,8 @@ Same thing. This example shows one for the bra category. The texture is handled 
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/ed3a4b3e-3a84-4d6c-b86e-f0e52d1b2bdb)
 
 ![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/e0ed453d-afa0-4a1a-a10f-344a51e5ff2e)
+
+### Clothes with Transparency
+
+Most clothes are opaque and in order to make them transparent you can use lif_main_cloth_alpha shader. This shader might not be present in the current file and needs to be copied over. (See [[Some use cases#editing-monobehaviours]] how to copy assets). But if the material's shader would be switched then the original clothes would no longer be the same. For this reason the whole Animator needs to be copied to make it independent and then the material's shader can be changed. (See the [[First Steps]] for copying the Animator and saving later into a new file). Open a clothes Animator which has that shader (heroine's e.i. It has transparent sleeves). The CustomRenderQueue is 3000 in this example with the tundere top: 
+![image](https://github.com/enimaroah-cubic/Sb3UGS/assets/104311725/07fc50d5-3a82-4e5d-8e52-6c7f7cb5343b)
